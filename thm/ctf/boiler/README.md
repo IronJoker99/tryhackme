@@ -73,9 +73,9 @@ Disallow: /
 ```
 in this some of the decimal encryption. we decrypt that codes we got
 
-OTliMDY2MGNkOTVhZGVhMzI3YzU0MTgyYmFhNTE1ODQK == base64
-99b0660cd95adea327c54182baa51584  = md5
-:kidding
+- OTliMDY2MGNkOTVhZGVhMzI3YzU0MTgyYmFhNTE1ODQK == base64
+- 99b0660cd95adea327c54182baa51584  = md5
+- kidding
 
 also searched for directory list we got
 
@@ -94,10 +94,10 @@ also searched for directory list we got
 
 ```
 
-in site `	`
-VjJodmNITnBaU0JrWVdsemVRbz0K
-V2hvcHNpZSBkYWlzeQo=
-Whopsie daisy
+in site we got encrypted message 
+- VjJodmNITnBaU0JrWVdsemVRbz0K
+- V2hvcHNpZSBkYWlzeQo=
+- Whopsie daisy
 
 
 ## ssh
