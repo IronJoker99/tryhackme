@@ -131,12 +131,11 @@ Use the following command to find files whose SUID bit is set.
 Let’s breakdown the command we used for better understanding:
 
 find →Search for files in a directory hierarchy.
-
-    / →Search for files recursively from the root folder and so on.
-    -perm →To set specific permission setting. In this case which is /4000 the numerical representation of the SUID bit enabled
-    -type →It specify what type of files we wants to search. f for files, d for directories
-    -exec →let us execute a command with the findings from find in an array. In this case I used ls -ld to show the owner of the found files and the date of creation
-    2>/dev/null → which redirects all (errors) to /dev/null and keeping the output clean.
+/ →Search for files recursively from the root folder and so on.
+-perm →To set specific permission setting. In this case which is /4000 the numerical representation of the SUID bit enabled
+-type →It specify what type of files we wants to search. f for files, d for directories
+-exec →let us execute a command with the findings from find in an array. In this case I used ls -ld to show the owner of the found files and the date of creation
+2>/dev/null → which redirects all (errors) to /dev/null and keeping the output clean.
 
 Have you observed the output we got from this command yet? In the list there is find commnad which have SUID bit set which means we can run find as root user. Using -exec flag as shown above. Let’s try out by changing the permission of root directory.
 ```
