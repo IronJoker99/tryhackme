@@ -1,0 +1,155 @@
+	Starting Nmap 7.80 ( https://nmap.org ) at 2024-03-26 16:41 IST
+Nmap scan report for 10.10.231.142
+Host is up (0.55s latency).
+Not shown: 997 closed ports
+PORT      STATE SERVICE VERSION
+21/tcp    open  ftp     vsftpd 3.0.3
+|_ftp-anon: Anonymous FTP login allowed (FTP code 230)
+| ftp-syst:
+|   STAT:
+| FTP server status:
+|      Connected to ::ffff:10.2.124.113
+|      Logged in as ftp
+|      TYPE: ASCII
+|      No session bandwidth limit
+|      Session timeout in seconds is 300
+|      Control connection is plain text
+|      Data connections will be plain text
+|      At session startup, client count was 2
+|      vsFTPd 3.0.3 - secure, fast, stable
+|_End of status
+80/tcp    open  http    Apache httpd 2.4.18 ((Ubuntu))
+| http-robots.txt: 1 disallowed entry
+|_/
+|_http-server-header: Apache/2.4.18 (Ubuntu)
+|_http-title: Apache2 Ubuntu Default Page: It works
+10000/tcp open  http    MiniServ 1.930 (Webmin httpd)
+|_http-title: Site doesn't have a title (text/html; Charset=iso-8859-1).
+Service Info: OS: Unix
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 94.36 seconds
+
+Starting Nmap 7.80 ( https://nmap.org ) at 2024-03-27 11:14 IST
+NSE: Loaded 151 scripts for scanning.
+NSE: Script Pre-scanning.
+Initiating NSE at 11:14
+Completed NSE at 11:14, 0.00s elapsed
+Initiating NSE at 11:14
+Completed NSE at 11:14, 0.00s elapsed
+Initiating NSE at 11:14
+Completed NSE at 11:14, 0.00s elapsed
+Initiating Parallel DNS resolution of 1 host. at 11:14
+Completed Parallel DNS resolution of 1 host. at 11:14, 0.03s elapsed
+Initiating SYN Stealth Scan at 11:14
+Scanning 10.10.129.170 [1000 ports]
+Discovered open port 21/tcp on 10.10.129.170
+Discovered open port 80/tcp on 10.10.129.170
+Discovered open port 10000/tcp on 10.10.129.170
+Completed SYN Stealth Scan at 11:14, 3.56s elapsed (1000 total ports)
+Initiating Service scan at 11:14
+Scanning 3 services on 10.10.129.170
+Completed Service scan at 11:14, 7.06s elapsed (3 services on 1 host)
+Initiating OS detection (try #1) against 10.10.129.170
+Retrying OS detection (try #2) against 10.10.129.170
+Retrying OS detection (try #3) against 10.10.129.170
+Retrying OS detection (try #4) against 10.10.129.170
+Retrying OS detection (try #5) against 10.10.129.170
+Initiating Traceroute at 11:14
+Completed Traceroute at 11:14, 3.03s elapsed
+Initiating Parallel DNS resolution of 2 hosts. at 11:14
+Completed Parallel DNS resolution of 2 hosts. at 11:14, 0.03s elapsed
+NSE: Script scanning 10.10.129.170.
+Initiating NSE at 11:14
+NSE: [ftp-bounce] PORT response: 500 Illegal PORT command.
+Completed NSE at 11:15, 31.35s elapsed
+Initiating NSE at 11:15
+Completed NSE at 11:15, 1.74s elapsed
+Initiating NSE at 11:15
+Completed NSE at 11:15, 0.00s elapsed
+Nmap scan report for 10.10.129.170
+Host is up (0.34s latency).
+Not shown: 980 closed ports
+PORT      STATE    SERVICE       VERSION
+21/tcp    open     ftp           vsftpd 3.0.3
+|_ftp-anon: Anonymous FTP login allowed (FTP code 230)
+| ftp-syst:
+|   STAT:
+| FTP server status:
+|      Connected to ::ffff:10.2.124.113
+|      Logged in as ftp
+|      TYPE: ASCII
+|      No session bandwidth limit
+|      Session timeout in seconds is 300
+|      Control connection is plain text
+|      Data connections will be plain text
+|      At session startup, client count was 4
+|      vsFTPd 3.0.3 - secure, fast, stable
+|_End of status
+37/tcp    filtered time
+80/tcp    open     http          Apache httpd 2.4.18 ((Ubuntu))
+| http-methods:
+|_  Supported Methods: GET HEAD POST OPTIONS
+| http-robots.txt: 1 disallowed entry
+|_/
+|_http-server-header: Apache/2.4.18 (Ubuntu)
+|_http-title: Apache2 Ubuntu Default Page: It works
+646/tcp   filtered ldp
+1095/tcp  filtered nicelink
+1151/tcp  filtered unizensus
+1164/tcp  filtered qsm-proxy
+1247/tcp  filtered visionpyramid
+1840/tcp  filtered netopia-vo2
+2030/tcp  filtered device2
+2099/tcp  filtered h2250-annex-g
+2500/tcp  filtered rtsserv
+3690/tcp  filtered svn
+6001/tcp  filtered X11:1
+6112/tcp  filtered dtspc
+6510/tcp  filtered mcer-port
+6699/tcp  filtered napster
+9595/tcp  filtered pds
+10000/tcp open     http          MiniServ 1.930 (Webmin httpd)
+|_http-favicon: Unknown favicon MD5: AEE8F854E711CAC3AB8DC0E3F57C3A2C
+| http-methods:
+|_  Supported Methods: GET HEAD POST OPTIONS
+|_http-server-header: MiniServ/1.930
+|_http-title: Site doesn't have a title (text/html; Charset=iso-8859-1).
+40193/tcp filtered unknown
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.80%E=4%D=3/27%OT=21%CT=1%CU=30355%PV=Y%DS=4%DC=T%G=Y%TM=6603B27
+OS:A%P=x86_64-pc-linux-gnu)SEQ(SP=105%GCD=1%ISR=10D%TI=Z%CI=I%II=I%TS=8)SEQ
+OS:(SP=104%GCD=1%ISR=10B%TI=Z%II=I%TS=8)OPS(O1=M508ST11NW6%O2=M508ST11NW6%O
+OS:3=M508NNT11NW6%O4=M508ST11NW6%O5=M508ST11NW6%O6=M508ST11)WIN(W1=68DF%W2=
+OS:68DF%W3=68DF%W4=68DF%W5=68DF%W6=68DF)ECN(R=Y%DF=Y%T=40%W=6903%O=M508NNSN
+OS:W6%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=AS%RD=0%Q=)T2(R=N)T3(R=N)T4(R=Y%D
+OS:F=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T5(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O
+OS:=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=40%W
+OS:=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%T=40%IPL=164%UN=0%RIPL=G%RID=G%R
+OS:IPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=40%CD=S)
+
+Uptime guess: 0.010 days (since Wed Mar 27 11:00:56 2024)
+Network Distance: 4 hops
+TCP Sequence Prediction: Difficulty=261 (Good luck!)
+IP ID Sequence Generation: All zeros
+Service Info: OS: Unix
+
+TRACEROUTE (using port 53/tcp)
+HOP RTT       ADDRESS
+1   260.35 ms 10.2.0.1
+2   ... 3
+4   379.33 ms 10.10.129.170
+
+NSE: Script Post-scanning.
+Initiating NSE at 11:15
+Completed NSE at 11:15, 0.00s elapsed
+Initiating NSE at 11:15
+Completed NSE at 11:15, 0.00s elapsed
+Initiating NSE at 11:15
+Completed NSE at 11:15, 0.00s elapsed
+Read data files from: /usr/bin/../share/nmap
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 69.08 seconds
+           Raw packets sent: 1209 (57.278KB) | Rcvd: 1065 (46.094KB)
+

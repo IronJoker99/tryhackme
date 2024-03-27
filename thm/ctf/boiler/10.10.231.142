@@ -1,0 +1,4 @@
+# Nmap 7.80 scan initiated Tue Mar 26 17:15:34 2024 as: nmap -p- -oN 10.10.231.142 ./-A
+Unable to split netmask from target expression: "./-A"
+WARNING: No targets were specified, so 0 hosts scanned.
+# Nmap done at Tue Mar 26 17:15:34 2024 -- 0 IP addresses (0 hosts up) scanned in 0.04 seconds

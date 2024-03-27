@@ -1,0 +1,163 @@
+Target: http://10.10.236.185/
+
+[21:59:32] Starting:
+[21:59:37] 301 -  232B  - /js  ->  http://10.10.236.185/js/
+[21:59:37] 301 -    0B  - /%2e%2e//google.com  ->  http://10.10.236.185/%2E%2E/google.com
+[21:59:50] 403 -  220B  - /.ht_wsr.txt
+[21:59:50] 403 -  223B  - /.htaccess.bak1
+[21:59:50] 403 -  223B  - /.htaccess.orig
+[21:59:50] 403 -  223B  - /.htaccess.save
+[21:59:50] 403 -  225B  - /.htaccess.sample
+[21:59:50] 403 -  224B  - /.htaccess_extra
+[21:59:50] 403 -  223B  - /.htaccess_orig
+[21:59:50] 403 -  221B  - /.htaccess_sc
+[21:59:50] 403 -  221B  - /.htaccessBAK
+[21:59:50] 403 -  221B  - /.htaccessOLD
+[21:59:50] 403 -  222B  - /.htaccessOLD2
+[21:59:50] 403 -  214B  - /.html
+[21:59:50] 403 -  213B  - /.htm
+[21:59:50] 403 -  223B  - /.htpasswd_test
+[21:59:50] 403 -  220B  - /.httr-oauth
+[21:59:50] 403 -  219B  - /.htpasswds
+[22:00:05] 403 -  218B  - /.user.ini
+[22:00:08] 301 -    0B  - /0  ->  http://10.10.236.185/0/
+[22:00:18] 301 -    0B  - /Citrix//AccessPlatform/auth/clientscripts/cookies.js  ->  http://10.10.236.185/Citrix/AccessPlatform/auth/clientscripts/cookies.js
+[22:00:22] 301 -    0B  - /PMA/index.php  ->  http://10.10.236.185/PMA/
+[22:00:23] 301 -    0B  - /PMA2/index.php  ->  http://10.10.236.185/PMA2/
+[22:00:44] 301 -  235B  - /admin  ->  http://10.10.236.185/admin/
+[22:00:44] 301 -    0B  - /adm/index.php  ->  http://10.10.236.185/adm/
+[22:00:47] 403 -  224B  - /admin/.htaccess
+[22:00:47] 200 -    1KB - /admin/
+[22:00:47] 200 -    1KB - /admin/?/login
+[22:00:51] 200 -    1KB - /admin/index
+[22:00:51] 200 -    1KB - /admin/index.html
+[22:00:51] 301 -    0B  - /admin/index.php  ->  http://10.10.236.185/admin/
+[22:00:54] 301 -    0B  - /admin/mysql2/index.php  ->  http://10.10.236.185/admin/mysql2/
+[22:00:54] 301 -    0B  - /admin/mysql/index.php  ->  http://10.10.236.185/admin/mysql/
+[22:00:54] 301 -    0B  - /admin/phpmyadmin2/index.php  ->  http://10.10.236.185/admin/phpmyadmin2/
+[22:00:54] 301 -    0B  - /admin/phpMyAdmin/index.php  ->  http://10.10.236.185/admin/phpMyAdmin/
+[22:00:54] 301 -    0B  - /admin/phpmyadmin/index.php  ->  http://10.10.236.185/admin/phpmyadmin/
+[22:00:54] 301 -    0B  - /admin/PMA/index.php  ->  http://10.10.236.185/admin/PMA/
+[22:00:54] 301 -    0B  - /admin/pma/index.php  ->  http://10.10.236.185/admin/pma/
+[22:00:55] 301 -    0B  - /admin2/index.php  ->  http://10.10.236.185/admin2/
+[22:00:58] 301 -    0B  - /admin_area/index.php  ->  http://10.10.236.185/admin_area/
+[22:01:17] 301 -    0B  - /adminarea/index.php  ->  http://10.10.236.185/adminarea/
+[22:01:18] 301 -    0B  - /admincp/index.php  ->  http://10.10.236.185/admincp/
+[22:01:23] 301 -    0B  - /administrator/index.php  ->  http://10.10.236.185/administrator/
+[22:01:32] 301 -    0B  - /apc/index.php  ->  http://10.10.236.185/apc/
+[22:01:51] 301 -    0B  - /atom  ->  http://10.10.236.185/feed/atom/
+[22:01:51] 301 -  235B  - /audio  ->  http://10.10.236.185/audio/
+[22:01:56] 301 -    0B  - /bb-admin/index.php  ->  http://10.10.236.185/bb-admin/
+[22:01:57] 301 -    0B  - /bitrix/admin/index.php  ->  http://10.10.236.185/bitrix/admin/
+[22:01:59] 403 -  214B  - /blog/
+[22:01:59] 301 -  234B  - /blog  ->  http://10.10.236.185/blog/
+[22:02:05] 301 -    0B  - /claroline/phpMyAdmin/index.php  ->  http://10.10.236.185/claroline/phpMyAdmin/
+[22:02:14] 301 -  233B  - /css  ->  http://10.10.236.185/css/
+[22:02:15] 302 -    0B  - /dashboard  ->  http://10.10.236.185/wp-admin/
+[22:02:17] 301 -    0B  - /db/index.php  ->  http://10.10.236.185/db/
+[22:02:18] 301 -    0B  - /dbadmin/index.php  ->  http://10.10.236.185/dbadmin/
+[22:02:26] 301 -    0B  - /engine/classes/swfupload//swfupload.swf  ->  http://10.10.236.185/engine/classes/swfupload/swfupload.swf
+[22:02:26] 301 -    0B  - /engine/classes/swfupload//swfupload_f9.swf  ->  http://10.10.236.185/engine/classes/swfupload/swfupload_f9.swf
+[22:02:27] 301 -    0B  - /etc/lib/pChart2/examples/imageMap/index.php  ->  http://10.10.236.185/etc/lib/pChart2/examples/imageMap/
+[22:02:29] 301 -    0B  - /extjs/resources//charts.swf  ->  http://10.10.236.185/extjs/resources/charts.swf
+[22:02:30] 200 -    0B  - /favicon.ico
+[22:02:31] 301 -    0B  - /feed  ->  http://10.10.236.185/feed/
+[22:02:39] 301 -    0B  - /html/js/misc/swfupload//swfupload.swf  ->  http://10.10.236.185/html/js/misc/swfupload/swfupload.swf
+[22:02:41] 403 -  216B  - /images/
+[22:02:41] 301 -  236B  - /images  ->  http://10.10.236.185/images/
+[22:02:41] 301 -    0B  - /image  ->  http://10.10.236.185/image/
+[22:02:43] 200 -    1KB - /index.html
+[22:02:43] 301 -    0B  - /index.php  ->  http://10.10.236.185/
+[22:02:43] 301 -    0B  - /index.php/login/  ->  http://10.10.236.185/login/
+[22:02:45] 301 -    0B  - /install/index.php?upgrade/  ->  http://10.10.236.185/install/?upgrade/
+[22:02:47] 403 -  212B  - /js/
+[22:02:52] 200 -  309B  - /license
+[22:02:52] 200 -  309B  - /license.txt
+[22:02:54] 302 -    0B  - /login  ->  http://10.10.236.185/wp-login.php
+[22:02:55] 301 -    0B  - /login.wdm%20  ->  http://10.10.236.185/login.wdm
+[22:02:55] 302 -    0B  - /login/  ->  http://10.10.236.185/wp-login.php
+[22:02:57] 200 -  504KB - /intro
+[22:03:04] 301 -    0B  - /modelsearch/index.php  ->  http://10.10.236.185/modelsearch/
+[22:03:06] 301 -    0B  - /myadmin2/index.php  ->  http://10.10.236.185/myadmin2/
+[22:03:06] 301 -    0B  - /myadmin/index.php  ->  http://10.10.236.185/myadmin/
+[22:03:07] 301 -    0B  - /mysql-admin/index.php  ->  http://10.10.236.185/mysql-admin/
+[22:03:07] 301 -    0B  - /mysql/index.php  ->  http://10.10.236.185/mysql/
+[22:03:07] 301 -    0B  - /mysqladmin/index.php  ->  http://10.10.236.185/mysqladmin/
+[22:03:14] 301 -    0B  - /panel-administracion/index.php  ->  http://10.10.236.185/panel-administracion/
+[22:03:16] 403 -   94B  - /phpmyadmin/doc/html/index.html
+[22:03:16] 403 -   94B  - /phpmyadmin/README
+[22:03:16] 403 -   94B  - /phpmyadmin/ChangeLog
+[22:03:16] 403 -   94B  - /phpmyadmin/docs/html/index.html
+[22:03:18] 301 -    0B  - /phpadmin/index.php  ->  http://10.10.236.185/phpadmin/
+[22:03:19] 301 -    0B  - /phpma/index.php  ->  http://10.10.236.185/phpma/
+[22:03:19] 403 -   94B  - /phpmyadmin
+[22:03:23] 301 -    0B  - /phpmyadmin-old/index.php  ->  http://10.10.236.185/phpmyadmin-old/
+[22:03:24] 403 -   94B  - /phpmyadmin/
+[22:03:24] 403 -   94B  - /phpmyadmin/index.php
+[22:03:24] 403 -   94B  - /phpmyadmin/phpmyadmin/index.php
+[22:03:24] 301 -    0B  - /phpMyAdmin.old/index.php  ->  http://10.10.236.185/phpMyAdmin.old/
+[22:03:24] 403 -   94B  - /phpmyadmin/scripts/setup.php
+[22:03:24] 301 -    0B  - /phpMyAdmin/index.php  ->  http://10.10.236.185/phpMyAdmin/
+[22:03:24] 301 -    0B  - /phpMyAdmin/phpMyAdmin/index.php  ->  http://10.10.236.185/phpMyAdmin/phpMyAdmin/
+[22:03:24] 301 -    0B  - /phpmyadmin0/index.php  ->  http://10.10.236.185/phpmyadmin0/
+[22:03:24] 301 -    0B  - /phpmyadmin1/index.php  ->  http://10.10.236.185/phpmyadmin1/
+[22:03:24] 301 -    0B  - /phpmyadmin2/index.php  ->  http://10.10.236.185/phpmyadmin2/
+[22:03:24] 301 -    0B  - /phpMyadmin_bak/index.php  ->  http://10.10.236.185/phpMyadmin_bak/
+[22:03:24] 301 -    0B  - /phpMyAdminold/index.php  ->  http://10.10.236.185/phpMyAdminold/
+[22:03:26] 301 -    0B  - /pma-old/index.php  ->  http://10.10.236.185/pma-old/
+[22:03:26] 301 -    0B  - /pma/index.php  ->  http://10.10.236.185/pma/
+[22:03:26] 301 -    0B  - /pmamy/index.php  ->  http://10.10.236.185/pmamy/
+[22:03:26] 301 -    0B  - /pmamy2/index.php  ->  http://10.10.236.185/pmamy2/
+[22:03:26] 301 -    0B  - /pmd/index.php  ->  http://10.10.236.185/pmd/
+[22:03:32] 200 -   64B  - /readme
+[22:03:32] 200 -   64B  - /readme.html
+[22:03:35] 200 -   41B  - /robots.txt
+[22:03:36] 301 -    0B  - /roundcube/index.php  ->  http://10.10.236.185/roundcube/
+[22:03:36] 301 -    0B  - /rss  ->  http://10.10.236.185/feed/
+[22:03:49] 301 -    0B  - /siteadmin/index.php  ->  http://10.10.236.185/siteadmin/
+[22:03:49] 200 -    0B  - /sitemap
+[22:03:49] 200 -    0B  - /sitemap.xml
+[22:03:49] 200 -    0B  - /sitemap.xml.gz
+[22:03:53] 301 -    0B  - /sql/index.php  ->  http://10.10.236.185/sql/
+[22:03:59] 301 -    0B  - /sugarcrm/index.php?module=Accounts&action=ShowDuplicates  ->  http://10.10.236.185/sugarcrm/?module=Accounts&action=ShowDuplicates
+[22:03:59] 301 -    0B  - /sugarcrm/index.php?module=Contacts&action=ShowDuplicates%20  ->  http://10.10.236.185/sugarcrm/?module=Contacts&action=ShowDuplicates%20
+[22:04:04] 301 -    0B  - /templates/beez/index.php  ->  http://10.10.236.185/templates/beez/
+[22:04:04] 301 -    0B  - /templates/ja-helio-farsi/index.php  ->  http://10.10.236.185/templates/ja-helio-farsi/
+[22:04:04] 301 -    0B  - /templates/rhuk_milkyway/index.php  ->  http://10.10.236.185/templates/rhuk_milkyway/
+[22:04:14] 301 -    0B  - /tmp/index.php  ->  http://10.10.236.185/tmp/
+[22:04:15] 301 -    0B  - /tools/phpMyAdmin/index.php  ->  http://10.10.236.185/tools/phpMyAdmin/
+[22:04:17] 301 -    0B  - /typo3/phpmyadmin/index.php  ->  http://10.10.236.185/typo3/phpmyadmin/
+[22:04:27] 301 -  235B  - /video  ->  http://10.10.236.185/video/
+[22:04:30] 301 -    0B  - /web/phpMyAdmin/index.php  ->  http://10.10.236.185/web/phpMyAdmin/
+[22:04:33] 301 -    0B  - /webadmin/index.php  ->  http://10.10.236.185/webadmin/
+[22:04:36] 301 -  238B  - /wp-admin  ->  http://10.10.236.185/wp-admin/
+[22:04:36] 302 -    0B  - /wp-admin/  ->  http://10.10.236.185/wp-login.php?redirect_to=http%3A%2F%2F10.10.236.185%2Fwp-admin%2F&reauth=1
+[22:04:36] 200 -    1B  - /wp-admin/admin-ajax.php
+[22:04:36] 500 -    3KB - /wp-admin/setup-config.php
+[22:04:36] 200 -    0B  - /wp-config.php
+[22:04:36] 301 -  240B  - /wp-content  ->  http://10.10.236.185/wp-content/
+[22:04:36] 200 -    0B  - /wp-content/
+[22:04:37] 403 -  247B  - /wp-content/plugins/akismet/akismet.php
+[22:04:37] 301 -  280B  - /wp-content/plugins/all-in-one-wp-migration/storage  ->  http://10.10.236.185/wp-content/plugins/all-in-one-wp-migration/storage/
+[22:04:37] 403 -  245B  - /wp-content/plugins/akismet/admin.php
+[22:04:37] 301 -    0B  - /wp-content/plugins/adminer/inc/editor/index.php  ->  http://10.10.236.185/wp-content/plugins/adminer/inc/editor/
+[22:04:37] 200 -    0B  - /wp-content/plugins/google-sitemap-generator/sitemap-core.php
+[22:04:37] 500 -    0B  - /wp-content/plugins/hello.php
+[22:04:37] 403 -  228B  - /wp-content/uploads/
+[22:04:37] 403 -  228B  - /wp-content/upgrade/
+[22:04:37] 403 -  221B  - /wp-includes/
+[22:04:37] 301 -  241B  - /wp-includes  ->  http://10.10.236.185/wp-includes/
+[22:04:37] 500 -    0B  - /wp-includes/rss-functions.php
+[22:04:37] 200 -    3KB - /wp-login
+[22:04:37] 200 -    3KB - /wp-login.php
+[22:04:38] 301 -    0B  - /wp-register.php  ->  http://10.10.236.185/wp-login.php?action=register
+[22:04:38] 200 -    3KB - /wp-login/
+[22:04:38] 302 -    0B  - /wp-signup.php  ->  http://10.10.236.185/wp-login.php?action=register
+[22:04:38] 200 -    0B  - /wp-cron.php
+[22:04:38] 301 -    0B  - /www/phpMyAdmin/index.php  ->  http://10.10.236.185/www/phpMyAdmin/
+[22:04:39] 301 -    0B  - /xampp/phpmyadmin/index.php  ->  http://10.10.236.185/xampp/phpmyadmin/
+[22:04:39] 405 -   42B  - /xmlrpc
+[22:04:39] 405 -   42B  - /xmlrpc.php
+
+Task Completed
+
