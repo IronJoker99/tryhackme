@@ -110,7 +110,7 @@ ssh basterd@10.10.129.170 -p 55007
 ```
 after we enter the new user id 
 cat backup.sh
-[image]
+![image]()
 we got user text
 
 cat .secret
